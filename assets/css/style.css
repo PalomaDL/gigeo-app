@@ -1,0 +1,14 @@
+/* @import 'components/buttons';
+@import 'components/header'; */
+button {
+  background-color: darkseagreen;
+  color: darkslateblue;
+}
+
+header {
+  height: 50vh;
+  width: 90vw;
+  background-color: darkslateblue;
+}
+
+/*# sourceMappingURL=style.css.map */

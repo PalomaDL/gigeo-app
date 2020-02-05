@@ -1,0 +1,10 @@
+@import url(http://allfont.es/allfont.css?fonts=futura-normal);
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap");
+
+.navbar__logo {
+  font-family: $logo-typography;
+  font-size: larger;
+}
+body {
+  font-family: $body-typography;
+}

@@ -1,0 +1,17 @@
+.hero-section__img {
+  height: 10vh;
+  width: 100%;
+  background-image: url(/assets/images/image-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-section__about {
+  height: 20vh;
+  background-color: red;
+  .hero-section__info img {
+    height: 8vh;
+    width: 8vh;
+  }
+}

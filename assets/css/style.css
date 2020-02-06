@@ -51,13 +51,31 @@ nav {
   width: 10vh;
 }
 
-/* .main-section__videos {
-    width: 25%;
-    box-sizing: border-box;
-    flex-wrap: wrap;
+@media (min-width: 720px) {
+  .hero-section__bg-img {
+    height: 20vh;
+    width: 100%;
+    background-image: url(/assets/images/image-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media (min-width: 960px) {
+  .hero-section__bg-img {
+    height: 30vh;
+    width: 100%;
+    background-image: url(/assets/images/image-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+.main-section__videos {
+  margin: 0;
+  padding: 0;
 }
 
-@media */
 .hero-section__btn-mensaje {
   background-color: lightblue;
 }

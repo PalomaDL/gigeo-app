@@ -16,3 +16,25 @@
   height: 10vh;
   width: 10vh;
 }
+
+@media (min-width: 720px){
+  .hero-section__bg-img {
+    height: 20vh;
+    width: 100%;
+    background-image: url(/assets/images/image-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (min-width: 960px){
+  .hero-section__bg-img {
+    height: 30vh;
+    width: 100%;
+    background-image: url(/assets/images/image-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

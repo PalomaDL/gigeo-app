@@ -10,6 +10,8 @@
 .hero-section__about {
   height: 20vh;
   font-family: $logo-typography;
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero-section__img {

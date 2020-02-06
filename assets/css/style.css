@@ -44,6 +44,8 @@ nav {
 .hero-section__about {
   height: 20vh;
   font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero-section__img {
@@ -78,6 +80,7 @@ nav {
 
 .hero-section__btn-mensaje {
   background-color: lightblue;
+  margin-right: 1em;
 }
 
 .hero-section__btn-seguir {

@@ -1,4 +1,4 @@
-.hero-section__img {
+.hero-section__bg-img {
   height: 10vh;
   width: 100%;
   background-image: url(/assets/images/image-banner.png);
@@ -8,10 +8,11 @@
 }
 
 .hero-section__about {
-  height: 20vh;
-  background-color: red;
-  .hero-section__info img {
-    height: 8vh;
-    width: 8vh;
-  }
+  height: 10vh;
+  font-family: $logo-typography;
+}
+
+.hero-section__img {
+  height: 8vh;
+  width: 8vh;
 }

@@ -19,7 +19,7 @@ nav {
   height: 15vh;
 }
 
-.hero-section__img {
+.hero-section__bg-img {
   height: 10vh;
   width: 100%;
   background-image: url(/assets/images/image-banner.png);
@@ -29,17 +29,21 @@ nav {
 }
 
 .hero-section__about {
-  height: 20vh;
-  background-color: red;
+  height: 10vh;
+  font-family: "Futura-Normal", arial;
 }
-.hero-section__about .hero-section__info img {
+
+.hero-section__img {
   height: 8vh;
   width: 8vh;
 }
 
-button {
-  background-color: darkseagreen;
-  color: darkslateblue;
+.hero-section__btn-mensaje {
+  background-color: lightblue;
+}
+
+.hero-section__btn-seguir {
+  background-color: tomato;
 }
 
 /*# sourceMappingURL=style.css.map */

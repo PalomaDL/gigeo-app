@@ -1,4 +1,9 @@
-button {
-    background-color: darkseagreen;
-    color: darkslateblue;
+.hero-section__btn-mensaje{
+    background-color: $primary-color;
 }
+
+.hero-section__btn-seguir{
+    background-color: $secondary-color;
+}
+
+//Si quiero hacer clases utilitarias, dónde van?

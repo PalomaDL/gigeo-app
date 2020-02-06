@@ -1,4 +1,4 @@
-@import url(http://allfont.es/allfont.css?fonts=futura-normal);
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap");
 
 .navbar__logo {
@@ -7,4 +7,16 @@
 }
 body {
   font-family: $body-typography;
+}
+
+.txt-wg-light {
+  font-weight: $txt-wg-light;
+}
+
+.txt-wg-regular {
+  font-weight: $txt-wg-regular;
+}
+
+.txt-wg-bold {
+  font-weight: $txt-wg-bold;
 }

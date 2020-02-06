@@ -1,5 +1,5 @@
 /* @import "vendors/bootstrap-4.3.1/scss/bootstrap"; */
-@import url(http://allfont.es/allfont.css?fonts=futura-normal);
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap");
 body {
   margin: 0;
@@ -7,7 +7,7 @@ body {
 }
 
 .navbar__logo {
-  font-family: "Futura-Normal", arial;
+  font-family: "Poppins", sans-serif;
   font-size: larger;
 }
 
@@ -15,8 +15,21 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.txt-wg-light {
+  font-weight: 300;
+}
+
+.txt-wg-regular {
+  font-weight: 400;
+}
+
+.txt-wg-bold {
+  font-weight: 700;
+}
+
 nav {
   height: 15vh;
+  margin: 0 2rem 0 2rem;
 }
 
 .hero-section__bg-img {
@@ -29,15 +42,22 @@ nav {
 }
 
 .hero-section__about {
-  height: 10vh;
-  font-family: "Futura-Normal", arial;
+  height: 20vh;
+  font-family: "Poppins", sans-serif;
 }
 
 .hero-section__img {
-  height: 8vh;
-  width: 8vh;
+  height: 10vh;
+  width: 10vh;
 }
 
+/* .main-section__videos {
+    width: 25%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+@media */
 .hero-section__btn-mensaje {
   background-color: lightblue;
 }

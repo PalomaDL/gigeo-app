@@ -1,7 +1,7 @@
 .hero-section__bg-img {
   height: 10vh;
   width: 100%;
-  background-image: url(/assets/images/image-banner.png);
+  background-image: url(../images/image-banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -9,9 +9,9 @@
 
 .hero-section__about {
   height: 20vh;
+  width: 100%;
   font-family: $logo-typography;
-  display: flex;
-  justify-content: space-between;
+  padding: 1rem 4rem;
 }
 
 .hero-section__img {
@@ -19,11 +19,15 @@
   width: 10vh;
 }
 
+/* .hero-section__person{
+  vertical-align: middle;
+} */
+
 @media (min-width: 720px){
   .hero-section__bg-img {
     height: 20vh;
     width: 100%;
-    background-image: url(/assets/images/image-banner.png);
+    background-image: url(../images/image-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -34,7 +38,7 @@
   .hero-section__bg-img {
     height: 30vh;
     width: 100%;
-    background-image: url(/assets/images/image-banner.png);
+    background-image: url(../images/image-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
